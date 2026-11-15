@@ -202,21 +202,4 @@ npm run dev
 Frontend URL: http://localhost:5173
 Setup note: Database schema validation may report differences between the provided SQL schema and JPA entities. If that happens, align the local schema with the entities before continuing. The project has not been verified as a production deployment.
 
-🎯 Learning Outcomes
-This project demonstrates practical experience with:
-- Building a full-stack web application
-- Connecting a React frontend to Spring Boot REST APIs
-- Using MySQL for relational data storage
-- Designing layered backend code with controllers, services, and repositories
-- Implementing JWT-related authentication functionality
-- Developing administrative and customer interfaces
-- Managing application configuration and local Docker services
-🔒 Security & Usage Note
-This repository is intended as a learning and portfolio project, not as a production-ready pharmacy system. Before any public deployment, strengthen role-based API authorization, validate inputs, restrict CORS, review handling of personal information, and configure secrets securely. Do not commit passwords, live credentials, or real customer data.
-🚀 Future Improvements
-- Improve authorization rules and security testing
-- Add automated unit and integration tests
-- Improve inventory validation and expiry notifications
-- Introduce CI/CD and deployment workflows
-- Enhance dashboards and reporting visualizations
-Developed as a full-stack web development project using React, Spring Boot, and MySQL.
+
